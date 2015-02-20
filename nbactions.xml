@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-GwtDebug</actionName>
+            <displayName>GwtDebug</displayName>
+            <goals>
+                <goal>gwt:debug</goal>
+                <goal>-e</goal>
+                <goal>-X</goal>
+            </goals>
+            <properties>
+                <runTarget>indexGWT.html</runTarget>
+                <superDevMode>false</superDevMode>
+            </properties>
+        </action>
+    </actions>
